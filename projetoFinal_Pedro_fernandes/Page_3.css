@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color:rgba(147, 189, 124, 1);
+}
+
+
+section {
+    color: rgba(74, 104, 63, 1);
+    font-family:Plus Jakarta Sans;
+    font-size: 22.5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "one two" "three four";
+
+    padding: 17%;
+   
+
+}
+
+.education {
+    grid-area: one;
+    position: fixed;
+    top: 150px;
+    left: 220px;
+
+
+}
+
+.hardSkills {
+    grid-area: two;
+    position: fixed;
+    top: 370px;
+    left: 210px;
+
+}
+
+.softSkills {
+    grid-area: three;
+    position: fixed;
+    top: 370px;
+    left: 410px;
+
+}
+
+.experience {
+    grid-area: four;
+    position: fixed;
+    top: 150px;
+    left: 790px;
+
+}
+
+
+#abt {
+    text-decoration: none;
+    color: rgba(177, 218, 165, 1);
+    font-size: 45px;
+    font-family:Plus Jakarta Sans;
+    letter-spacing: 2px;
+}
+
+#wrk {
+    text-decoration: none;
+    color: rgba(92, 137, 76, 1);
+    font-size: 45px;
+    font-family:Plus Jakarta Sans;
+    letter-spacing: 2px;
+}
+
+#cntc {
+    text-decoration: none;
+    color: rgba(92, 137, 76, 1);
+    font-size: 45px;
+    font-family:Plus Jakarta Sans;
+    letter-spacing: 2px;
+}
+
+.bar {
+    /*position:fixed;
+    right: 0;
+    top: 0;*/
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: stretch;
+}
+
+#abtd {
+    background-color: rgba(92, 137, 76, 1);
+    /*padding: 15px;*/
+    padding: 400px 15px 15px 15px;
+    border: none;
+    position:fixed;
+    left:0;
+    top: -150px;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+}
+
+#wrkd {
+    background-color: rgba(147, 189, 124, 1);
+    padding: 400px 15px 15px 15px;
+    border: none;
+    position:fixed;
+    right: 82px;
+    top: -150px;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+}
+
+#cntcd {
+    background-color:rgba(177, 218, 165, 1);
+    padding: 400px 15px 15px 15px;
+    border: none;
+    position:fixed;
+    right:0;
+    top: -150px;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+}
